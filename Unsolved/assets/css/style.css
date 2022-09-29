@@ -87,6 +87,24 @@ footer {
   color: #fff;
 }
 
+div a {
+  color: aqua;
+  background-color: teal; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30%;
+}
+
+div a:hover {
+  background-color: red; /* Green */
+  color: black;
+  border-radius: 30%;
+}
 /* TODO: Add styles to display and hide the resource links */
 
 @media screen and (max-width: 768px) {
