@@ -87,23 +87,12 @@ footer {
   color: #fff;
 }
 
-div a {
-  color: aqua;
-  background-color: teal; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 30%;
+.resources ul{
+  display: none;
 }
 
-div a:hover {
-  background-color: red; /* Green */
-  color: black;
-  border-radius: 30%;
+.resources:hover ul {
+  display: block;
 }
 /* TODO: Add styles to display and hide the resource links */
 
